@@ -1,8 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{44C7067A-6AC6-4AF2-96A6-28A876F5CFBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{3F717B88-42A6-4F8C-947C-660EE314EFB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{ADC688C3-B565-47D9-8BB5-8705A7265D8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{011FD29B-67BB-40CA-B766-929938CDF070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio.Web.Api", "Portfolio.Web.Api\Portfolio.Web.Api.csproj", "{A3D13436-84C1-43A9-B8F3-C6590ECE25C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3D13436-84C1-43A9-B8F3-C6590ECE25C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D13436-84C1-43A9-B8F3-C6590ECE25C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D13436-84C1-43A9-B8F3-C6590ECE25C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D13436-84C1-43A9-B8F3-C6590ECE25C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F717B88-42A6-4F8C-947C-660EE314EFB6} = {44C7067A-6AC6-4AF2-96A6-28A876F5CFBD}
+		{ADC688C3-B565-47D9-8BB5-8705A7265D8A} = {44C7067A-6AC6-4AF2-96A6-28A876F5CFBD}
+		{011FD29B-67BB-40CA-B766-929938CDF070} = {44C7067A-6AC6-4AF2-96A6-28A876F5CFBD}
+		{A3D13436-84C1-43A9-B8F3-C6590ECE25C6} = {3F717B88-42A6-4F8C-947C-660EE314EFB6}
 	EndGlobalSection
 EndGlobal
