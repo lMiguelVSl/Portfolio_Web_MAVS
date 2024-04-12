@@ -152,3 +152,7 @@ textarea:focus {
 .project + .project {
     margin-top: 20px;
 }
+
+.photo-header {
+    display: flex;
+}
