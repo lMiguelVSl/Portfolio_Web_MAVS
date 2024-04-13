@@ -1,0 +1,56 @@
+.main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  background-color: rgb(245, 242, 242);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(107, 107, 107, 0.1);
+  border: 1px solid #ede9e9;
+}
+
+.person-header {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.personal-information {
+  margin-top: 120%;
+}
+
+.information {
+  margin: 0 40px;
+}
+
+.information-child {
+  &__title {
+    margin: 0;
+  }
+
+  &__name {
+    margin: 0;    
+  }
+}
+
+.img-header {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.details-header {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.align-bottom {
+  margin-top: 50px; 
+}
