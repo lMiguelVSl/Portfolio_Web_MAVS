@@ -11,9 +11,15 @@
         <app-header></app-header>
     </header>
 
-    <app-background></app-background>
-    <app-projects></app-projects>
-    <app-contact></app-contact>
+    <div *ngIf="hideBody; else Body" class="manteinance">
+        I AM WORKING FOR YOU;
+        THIS PAGE IS STILL ON PROGRESS;
+    </div>
+    <ng-template #Body>
+        <app-background></app-background>
+        <app-projects></app-projects>
+        <app-contact></app-contact>
+    </ng-template>
 
     <footer>
         <p>&copy; 2024 My Portfolio</p>
