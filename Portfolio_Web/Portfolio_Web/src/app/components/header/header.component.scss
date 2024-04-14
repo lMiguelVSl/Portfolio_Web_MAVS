@@ -52,5 +52,20 @@
 }
 
 .align-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 50px; 
+}
+
+mat-icon{
+  height: 40px;
+  width: 40px;
+}
+
+mat-icon.dotnet-icon {
+  margin-left: 10px;
+  height: 35px;
+  width: 30px;
 }
