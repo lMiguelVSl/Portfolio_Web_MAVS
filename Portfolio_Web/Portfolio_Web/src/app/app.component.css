@@ -1,33 +1,28 @@
-/* Reset some default browser styles */
-body{
-    display: flex;
-  flex-direction: column;
-  height: 100vh; 
-}
-
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    flex: 1; /* Grow to fill available space */
-    overflow-y: auto; 
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  flex: 1; /* Grow to fill available space */
+  overflow-y: auto;
 }
 
-
 .manteinance {
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1; /* Grow to fill available space */
-    overflow-y: auto; 
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /* Grow to fill available space */
+  overflow-y: auto;
 }
