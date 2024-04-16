@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { materialComponents } from '../material';
 import { CommonModule } from '@angular/common';
+import { Project } from './models/project-type';
 
 @Component({
   selector: 'app-projects',
@@ -10,5 +11,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
-  projects: any[] = [1,2,3,4];
+  projects: Project[] = [];
 }
