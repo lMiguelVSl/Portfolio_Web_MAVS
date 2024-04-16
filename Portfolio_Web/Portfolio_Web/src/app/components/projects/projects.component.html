@@ -1,15 +1,15 @@
 <section>
-    <h2>Portfolio</h2>
+    <h2>Projects</h2>
     <div class="projects-carrousel">
         <div *ngFor="let project of projects">
             <mat-card class="project">
                 <mat-card-header>
-                    <div mat-card-avatar class="example-header-image"></div>
+                    <div mat-card-avatar class="header-image"></div>
                     <mat-card-title>{{project.Title}}</mat-card-title>
                     <mat-card-subtitle>{{project.Stack}}</mat-card-subtitle>
                 </mat-card-header>
                 <img mat-card-image src="{{project.ImgUrl}}"
-                    alt="Photo of a Shiba Inu">
+                    alt="Photo of {{project.Title}}">
                 <mat-card-content>
                     <p>
                         {{project.Description}}
