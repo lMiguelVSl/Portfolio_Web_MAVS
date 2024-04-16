@@ -1,5 +1,7 @@
+.contact-card{
+    min-width: 900px;
+}
 
-/* Form styling */
 form {
     max-width: 600px;
     margin: 0 auto;
