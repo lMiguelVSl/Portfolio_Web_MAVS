@@ -8,19 +8,19 @@ const projectsMock: Project[] = [
       Title: "E-commerce Website",
       Description: "A fully functional e-commerce platform for selling various products online.",
       Stack: "React, Node.js, MongoDB",
-      ImgUrl: "https://example.com/ecommerce.png"
+      ImgUrl: ""
   },
   {
       Title: "Fitness Tracker App",
       Description: "An app to track workouts, set fitness goals, and monitor progress over time.",
       Stack: "Flutter, Firebase",
-      ImgUrl: "https://example.com/fitness_app.png"
+      ImgUrl: ""
   },
   {
       Title: "Sales Performance Dashboard",
       Description: "A dashboard to analyze sales data, track performance metrics, and visualize trends.",
       Stack: "Python, Pandas, Matplotlib",
-      ImgUrl: "https://example.com/sales_dashboard.png"
+      ImgUrl: ""
   }
 ];;
 
