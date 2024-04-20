@@ -5,22 +5,28 @@ import { Project } from './models/project-type';
 
 const projectsMock: Project[] = [
   {
-      Title: "E-commerce Website",
-      Description: "A fully functional e-commerce platform for selling various products online.",
-      Stack: "React, Node.js, MongoDB",
-      ImgUrl: ""
+    Title: "User management",
+    Description: "A grid view with CRUD operations to manage user information and operations.",
+    Stack: "Angular | .NET | SQL",
+    ImgUrl: ""
   },
   {
-      Title: "Fitness Tracker App",
-      Description: "An app to track workouts, set fitness goals, and monitor progress over time.",
-      Stack: "Flutter, Firebase",
-      ImgUrl: ""
+    Title: "User Registration",
+    Description: "View with registration form and grid view.",
+    Stack: "ReactJS | Node.JS | MongoDB",
+    ImgUrl: ""
   },
   {
-      Title: "Sales Performance Dashboard",
-      Description: "A dashboard to analyze sales data, track performance metrics, and visualize trends.",
-      Stack: "Python, Pandas, Matplotlib",
-      ImgUrl: ""
+    Title: "Car List",
+    Description: "A grid view with different view to manage CRUD operations regarding car registration.",
+    Stack: "Angular | .NET | SQL",
+    ImgUrl: ""
+  },
+  {
+    Title: "Gifs",
+    Description: "An app to search the GIFs you want to see, including an search historial.",
+    Stack: "Angular | GIFs API Consuption",
+    ImgUrl: ""
   }
 ];;
 
