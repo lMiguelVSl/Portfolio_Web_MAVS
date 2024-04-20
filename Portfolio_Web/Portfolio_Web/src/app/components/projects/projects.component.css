@@ -1,12 +1,15 @@
-/* Project card styling */
+.projects-section {
+    padding: 3%;
+}
+
 .project {
     margin: 10px;
-    max-width: 400px;
+    width: 300px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
     transition: transform 0.3s ease;
+    /* min-height: 300px; */
 }
 
 .project:hover {
@@ -15,7 +18,7 @@
 
 .project img {
     width: 100%;
-    height: auto;
+    height: 200px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -37,6 +40,8 @@
 .projects-carrousel {
     display: flex;
     flex-direction: row;
+    align-items: stretch; /* Add this line to make all the child elements the same height */
+    flex-wrap: wrap;
 }
 
 
@@ -44,3 +49,36 @@
     background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
     background-size: cover;
   }
+
+.projects-carrousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Add this line to center the button horizontally */
+    align-items: center; /* Add this line to center the button vertically */
+}
+
+.more-info-button {
+    background-color: #96ccff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px; /* Adjust this line to make the button way smaller */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px; /* Adjust this line to make the text way smaller */
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.more-info-button:hover {
+    background-color: #5bb0ff;
+}
+
+.action-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

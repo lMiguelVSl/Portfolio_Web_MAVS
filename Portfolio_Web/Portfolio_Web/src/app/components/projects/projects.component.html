@@ -1,4 +1,4 @@
-<section>
+<section class="projects-section">
     <h2>Projects</h2>
     <div class="projects-carrousel">
         <div *ngFor="let project of projects">
@@ -8,15 +8,16 @@
                     <mat-card-title>{{project.Title}}</mat-card-title>
                     <mat-card-subtitle>{{project.Stack}}</mat-card-subtitle>
                 </mat-card-header>
-                <img mat-card-image src="{{project.ImgUrl}}"
-                    alt="Photo of {{project.Title}}">
+                <img mat-card-image src="{{project.ImgUrl}}" alt="Photo of {{project.Title}}">
                 <mat-card-content>
                     <p>
                         {{project.Description}}
                     </p>
                 </mat-card-content>
-                <mat-card-actions>
-                    <button mat-button>See More...</button>
+                <mat-card-actions class="action-section">
+                    <div class="more-info-button">
+                        <button mat-button>See More...</button>
+                    </div>
                 </mat-card-actions>
             </mat-card>
         </div>
