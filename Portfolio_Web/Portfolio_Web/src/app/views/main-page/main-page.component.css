@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-.about-section {
+/* .about-section {
   background-color: antiquewhite;
 }
 
@@ -21,7 +21,7 @@
 
 .contact-section {
   background-color:bisque;
-}
+} */
 
 .flex-child {
   display: flex;
