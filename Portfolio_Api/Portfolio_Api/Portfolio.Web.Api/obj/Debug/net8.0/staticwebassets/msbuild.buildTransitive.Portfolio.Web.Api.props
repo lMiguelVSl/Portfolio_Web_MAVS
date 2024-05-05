@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/Portfolio.Web.Api.props" />
-</Project>
