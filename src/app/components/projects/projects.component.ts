@@ -32,7 +32,7 @@ const projectsMock: Project[] = [
     Title: "Gifs",
     Description: "An app to search the GIFs you want to see, including an search historial.",
     Stack: "Angular | GIFs API Consuption",
-    ImgUrl: ""
+    ImgUrl: "../../../assets/img/gif-app.png"
   }
 ];;
 
